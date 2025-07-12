@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>codap</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODAP 실습 가이드</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CODAP 실습 가이드: World Bank 데이터 분석 단계별 안내</h1>
+    <p><strong>대상:</strong> 고등학교 1학년 | <strong>도구:</strong> CODAP | <strong>데이터 파일:</strong> worldbank_gdp_lifeexpectancy.csv</p>
+
+    <section>
+      <h2>1. CODAP 접속 및 프로젝트 생성 (1분)</h2>
+      <ol>
+        <li>웹 브라우저에서 CODAP에 접속합니다.</li>
+        <li>상단 메뉴에서 <strong>‘New Document’</strong>를 클릭해 새 프로젝트를 만듭니다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>2. 데이터 불러오기 (3분)</h2>
+      <ol>
+        <li>왼쪽 상단의 <strong>‘+ Add Data’</strong> 아이콘을 클릭합니다.</li>
+        <li><strong>‘From File…’</strong>을 선택해 CSV 파일을 업로드합니다.</li>
+        <li>데이터 테이블이 나타나면 변수 목록을 확인합니다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>3. 데이터 전처리: 변수 필터링 및 숨기기 (4분)</h2>
+      <ol>
+        <li>테이블 옵션(톱니바퀴)에서 <strong>‘Hide Columns’</strong>로 불필요 칼럼을 숨깁니다.</li>
+        <li><strong>‘Filter Cases’</strong>로 특정 연도/국가만 남길 수 있습니다.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>4. 산점도 만들기 (10분)</h2>
+      <ol>
+        <li>상단 도구 모음에서 <strong>Scatter Plot</strong> 선택</li>
+        <li>X축에 <em>GDP per capita</em>, Y축에 <em>Life expectancy</em> 설정</li>
+        <li><em>Country</em>를 <strong>Color by</strong>, <strong>Label</strong>에 추가</li>
+        <li>디스플레이 설정에서 축 범위와 점 크기 조정</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>5. 막대그래프 만들기 (8분)</h2>
+      <ol>
+        <li>Bar Chart 선택</li>
+        <li>X축에 <em>Country</em>, Y축에 <em>Life expectancy</em> 설정</li>
+        <li>평균선 추가 및 내림차순 정렬</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>6. 인사이트 탐색 및 노트 작성 (7분)</h2>
+      <ul>
+        <li>산점도에서 상관 관계 파악</li>
+        <li>막대그래프에서 국가별 차이 관찰</li>
+        <li>파인만 기법으로 노트 작성</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. 그래프 내보내기 및 발표 자료 활용 (5분)</h2>
+      <ol>
+        <li>Share → Export Image로 PNG 저장</li>
+        <li>발표 자료에 이미지 삽입</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>8. 과제 안내 (2분)</h2>
+      <ul>
+        <li>새 데이터(문맹률/평균 교육 연수)로 동일 실습</li>
+        <li>분석 결과 3문장 요약 제출</li>
+      </ul>
+    </section>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

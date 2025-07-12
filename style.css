@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #555;
+  margin-bottom: 0.5rem;
+  cursor: pointer; /* 클릭 가능 표시 */
+}
+
+ol, ul {
+  margin-left: 1.5rem;
+}
+
+ol li, ul li {
+  margin-bottom: 0.3rem;
+}
+
+strong {
+  color: #222;
+}
+
+em {
+  color: #0066cc;
+}
